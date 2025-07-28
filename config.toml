@@ -4,14 +4,20 @@ title                   = "Arhuman's Blog"
 theme                   = "future-imperfect-slim"
 preserveTaxonomyNames   = true
 pagination.pagerSize    = 3
-disqusShortname         = "blog-assad-fr"
+# disqusShortname         = "blog-assad-fr"
 googleAnalytics         = "UA-4648696-5"
 pluralizeListTitles     = false
 disableLanguages        = [""]
 staticDir               = ["static"]
-Author			= "Arnaud (Arhuman) ASSAD"
+
+[author]
+  name =  "Arnaud (Arhuman) ASSAD"
+  homepage = "https://blog.assad.fr"
+
+
 
 [params]
+  DisqusShortname       = "blog-assad-fr"
   # Loads CSS and JavaScript files. The variable is an array so that you can load
   # multiple/additional files if necessary. The standard theme files can be loaded
   # by adding the value, "default". Default includes the add-on.css and and-on.js.
@@ -212,54 +218,54 @@ Author			= "Arnaud (Arhuman) ASSAD"
       identifier        = "far fa-envelope"
       weight            = 6
 
-# Sets Social Media icons to appear and link to your account. Value should be your
-# username unless otherwise noted. These are the icons affected by socialAppearAtTop
-# and socialAppearAtBottom.
-[social]
+  # Sets Social Media icons to appear and link to your account. Value should be your
+  # username unless otherwise noted. These are the icons affected by socialAppearAtTop
+  # and socialAppearAtBottom.
+  [params.Social]
   # Coding Communities
-  github                = "arhuman"
-  # gitlab                = ""
-  stackoverflow         = "" # User Number
-  # bitbucket             = ""
-  # jsfiddle              = ""
-  # codepen               = ""
-  # Visual Art Communities
-  # deviantart            = ""
-  # flickr                = "example"
-  # behance               = ""
-  # dribbble              = ""
-  # Publishing Communities
-  # wordpress             = ""
-  # medium                = "arhuman"
-  # Professional/Business Oriented Communities
-  linkedin              = "arnaudassad"
-  # linkedin_company      = "examplebusiness"
-  # foursquare            = ""
-  # xing                  = ""
-  # slideshare            = ""
-  # Social Networks
-  facebook              = "TheArhuman"
-  #googleplus            = ""
-  reddit                = "arhuman"
-  # quora                 = ""
-  youtube               = ""
-  # vimeo                 = ""
-  # whatsapp              = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat              = ""
-    qq                  = "" # User ID Number
-  instagram             = "assadarnaud"
-  # tumblr                = ""
-  twitter               = "aassad"
-  # skype                 = ""
-  # snapchat              = ""
-  # pinterest             = "example"
-  # telegram              = "example"
-  # vine                  = ""
-  # googlescholar         = ""
-  # orcid                 = ""
-  # researchgate          = "example"
-  # keybase               = "example"
-  # mastodon              = "example.com/@example"
-  # Email
-  email                 = "arhuman@gmail.com"
+    github                = "arhuman"
+    # gitlab                = ""
+    stackoverflow         = "" # User Number
+    # bitbucket             = ""
+    # jsfiddle              = ""
+    # codepen               = ""
+    # Visual Art Communities
+    # deviantart            = ""
+    # flickr                = "example"
+    # behance               = ""
+    # dribbble              = ""
+    # Publishing Communities
+    # wordpress             = ""
+    # medium                = "arhuman"
+    # Professional/Business Oriented Communities
+    linkedin              = "arnaudassad"
+    # linkedin_company      = "examplebusiness"
+    # foursquare            = ""
+    # xing                  = ""
+    # slideshare            = ""
+    # Social Networks
+    facebook              = "TheArhuman"
+    #googleplus            = ""
+    reddit                = "arhuman"
+    # quora                 = ""
+    youtube               = ""
+    # vimeo                 = ""
+    # whatsapp              = "" # WhatsApp Number
+      # WeChat and QQ need testing.
+      wechat              = ""
+      qq                  = "" # User ID Number
+    instagram             = "assadarnaud"
+    # tumblr                = ""
+    twitter               = "aassad"
+    # skype                 = ""
+    # snapchat              = ""
+    # pinterest             = "example"
+    # telegram              = "example"
+    # vine                  = ""
+    # googlescholar         = ""
+    # orcid                 = ""
+    # researchgate          = "example"
+    # keybase               = "example"
+    # mastodon              = "example.com/@example"
+    # Email
+    email                 = "arhuman@gmail.com"
