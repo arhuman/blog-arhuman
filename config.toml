@@ -1,4 +1,4 @@
-baseurl                 = "https://test.blog.assad.fr/"
+baseurl                 = "https://blog.assad.fr"
 DefaultContentLanguage  = "en"
 title                   = "Arhuman's Blog"
 theme                   = "future-imperfect-slim"
@@ -10,10 +10,12 @@ pluralizeListTitles     = false
 disableLanguages        = [""]
 staticDir               = ["static"]
 
+[Home]
+  RelPermalink = "/blog/"
+
 [author]
   name =  "Arnaud (Arhuman) ASSAD"
   homepage = "https://blog.assad.fr"
-
 
 
 [params]
